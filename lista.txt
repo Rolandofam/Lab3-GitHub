@@ -1,1 +1,7 @@
 1. Aruquipa Mamani Rolando Freddy - Encargado
+<<<<<<< HEAD
+=======
+2. Mamani Huallpa Hugo Lando Junior
+3. Mollinedo Miranda Josue Arturo - Desarrollador-2
+4. Mamani Choquehuanca Adhemar
+>>>>>>> 2e004befa973972fbf947e931ba42c136b978f68
