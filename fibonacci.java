@@ -1,5 +1,11 @@
 import java.util.Scanner;
 class Fibonacci {
+    public static int calcularFibonacciRecursivo(int n) {
+        if (n <= 1) {
+            return n;
+        }
+        return calcularFibonacciRecursivo(n - 1) + calcularFibonacciRecursivo(n - 2);
+    }
     public void normal(int nn)
     {
         int a = 0, b = 1;
@@ -17,6 +23,9 @@ class Fibonacci {
         int n = scanner.nextInt();
         Fibonacci fibo=new Fibonacci();
         fibo.normal(n);
+        for (int i = 0; i < n; i++) {
+            System.out.print(calcularFibonacciRecursivo(i) + " ");
+        }
         scanner.close();
     }
 }
