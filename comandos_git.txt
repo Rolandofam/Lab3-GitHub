@@ -1,6 +1,6 @@
-git pull
-git status
-git add.
-git status
-git commit -m "Desarrollo programa fibonacci, comandos y lista"
-git push origin desarrolo-1
+Comando
+`git init`               
+`git status`              
+`git add .`               
+`git commit -m "mensaje"` 
+`git push` 
